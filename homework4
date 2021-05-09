@@ -1,0 +1,23 @@
+birthYear = float( input("What is your birth year: ") )
+
+if (1901 > birthYear > 1882):
+    print("You are The lost Generation")
+
+if (1928 > birthYear > 1900):
+    print("You are the Greatest Generation")
+    
+if (1946 > birthYear > 1927):
+    print("You are the Silent Generation")
+
+if (1965 > birthYear > 1945):
+    print("You are Baby Boomers")
+    
+if (1981 > birthYear > 1964):
+    print("You are the Generation-X")
+
+if (1997 > birthYear > 1980):
+    print("You are Millennials (Generation Y)")
+    
+if (2013 > birthYear > 1996):
+    print("You are the Generation Z")
+    
